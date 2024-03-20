@@ -18,9 +18,7 @@ function MyPosts() {
         })
     },[])
     
-    useCallback(()=>{
-        post.filter((post)=>(post.userId === userData.$id)? count=count+post: null)
-    },[setPost])
+    post.filter((post)=>(post.userId === userData.$id)? count=count+post: null)
     console.log(count)
     
   return (
