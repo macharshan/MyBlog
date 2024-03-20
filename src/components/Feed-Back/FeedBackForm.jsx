@@ -30,6 +30,7 @@ function FeedBackForm() {
                     }
                 )
             }
+            // navigate("/")
         }
     }
 
