@@ -19,7 +19,7 @@ function MyPosts() {
     },[])
     
     post.filter((post)=>(post.userId === userData.$id)? count=count+post: null)
-    console.log(count)
+    // console.log(count)
     
   return (
     <div className='w-full py-8'>
